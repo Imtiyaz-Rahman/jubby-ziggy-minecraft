@@ -1,2 +1,2 @@
 # jubby-ziggy-minecraft
-I helpfull shell script that can be used for some helpful thing
+A helpfull shell script that can be used for some helpful task
