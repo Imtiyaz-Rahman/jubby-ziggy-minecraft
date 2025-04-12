@@ -20,9 +20,9 @@ printf '# (Change the number depending on java jdk version you want to play on)'
 # setup firewalld
 yes |sudo apt install firewalld
 
-firewall-cmd --permanent --zone=public --add-port=25565/tcp 
-firewall-cmd --permanent --zone=public --add-port=25565/udp 
-firewall-cmd --reload
+sudo firewall-cmd --permanent --zone=public --add-port=25565/tcp 
+sudo firewall-cmd --permanent --zone=public --add-port=25565/udp 
+sudo firewall-cmd --reload
 
  
 
