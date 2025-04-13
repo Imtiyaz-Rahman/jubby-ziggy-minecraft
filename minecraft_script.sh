@@ -24,6 +24,10 @@ sudo firewall-cmd --permanent --zone=public --add-port=25565/tcp
 sudo firewall-cmd --permanent --zone=public --add-port=25565/udp 
 sudo firewall-cmd --reload
 
+# install unzip package
+sudo apt install unzip
+
+
  
 
-echo "everything should be compelete now good luck"
+echo "everything should be complete now good luck"
